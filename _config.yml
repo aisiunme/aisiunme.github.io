@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Jun"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Web-development Coding Education Japanese Writing"
+  bio              : "Web-development<br>Coding Education<br>Japanese<br>Writing"
   location         : "Seoul"
   email            : "aisiunme@gmail.com"
   uri              : "https://aisiunme.github.io"
@@ -113,7 +113,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/aisiunme"
+  github           : "aisiunme"
   gitlab           :
   google_plus      :
   keybase          :
