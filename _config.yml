@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Algorithm with Animation"
+title                    : "책 쓰는 개발자"
 title_separator          : "-"
-name                     : "Jun"
-description              : "algorithm"
+name                     : "Jun Lee"
+description              : "Web-development"
 url                      : "https://aisiunme.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "aisiunme/aisiunme.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -27,9 +27,9 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : juns-technical-blog # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -100,9 +100,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jun"
+  name             : "Jun Lee"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Web-development<br>Coding Education<br>Japanese<br>Writing"
+  bio              : "Web-development<br>Coding Education<br>Japanese Translation<br>Writing"
   location         : "Seoul"
   email            : "aisiunme@gmail.com"
   uri              : "https://aisiunme.github.io"
@@ -135,7 +135,7 @@ author:
 # Reading Files
 include:
   - .htaccess
-  - _pages
+  - _ es
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -196,7 +196,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:categories/:year/:month/:day/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -255,7 +255,6 @@ compress_html:
   ignore:
     envs: development
 
-
 # Defaults
 defaults:
   # _posts
@@ -265,7 +264,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+      read_time: false
+      comments: true
       share: true
       related: true
