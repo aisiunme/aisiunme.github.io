@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko"
-title                    : "책 쓰는 개발자"
+title                    : "번역하고 책 쓰는 개발자"
 title_separator          : "-"
 name                     : "Jun Lee"
-description              : "Web-development"
+description              : 
 url                      : "https://aisiunme.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "aisiunme/aisiunme.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -58,8 +58,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
