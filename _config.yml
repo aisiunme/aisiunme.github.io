@@ -11,14 +11,14 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko"
-title                    : "번역하고 책 쓰는 개발자"
+title                    : "책쓰고 번역하는 웹 개발자"
 title_separator          : "-"
-name                     : "Jun Lee"
+name                     : &name "Jun Lee"
 description              : 
 url                      : "https://aisiunme.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -58,14 +58,14 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  powered_by             : true # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Jun Lee"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Web-development<br>Coding Education<br>Japanese Translation<br>Writing"
+  bio              : "Web-development<br>Coding Education<br>Writing<br>Japanese Translation"
   location         : "Seoul"
   email            : "aisiunme@gmail.com"
   uri              : 
@@ -136,6 +136,9 @@ author:
 include:
   - .htaccess
   - _ es
+  - _pages
+  - _translation
+  - _novels
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -199,7 +202,7 @@ sass:
 permalink: /:categories/:year/:month/:day/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -255,6 +258,15 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  creation:
+    output: true
+    permalink: /:collection/:path/
+  translation:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -268,3 +280,28 @@ defaults:
       comments: true
       share: true
       related: true
+# _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+# _creation
+  - scope:
+      path: ""
+      type: creation
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+# _translation
+  - scope:
+      path: ""
+      type: translation
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
