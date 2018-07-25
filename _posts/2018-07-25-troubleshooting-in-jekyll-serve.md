@@ -1,5 +1,5 @@
 ---
-title: "Jekyll - Github page 오류 해결 방법"
+title: "Jekyll - Github page 오류 해결"
 comments: true
 categories:
   - Jekyll
@@ -8,12 +8,12 @@ tags:
   - github page
 ---
 
-## Jekyll을 이용한 Github page 생성시
+## jekyll serve 오류 발생!!
 
-### Jekyll 구동 오류 발생 :anger:
 ```
-jekyll server
+jekyll serve
 ```
+Jekyll 구동 오류 발생 :anger:<br>
 이 명령을 통해 jekyll이 내장하고 있는 서버를 동작시키고 이를 로컬 PC에서 확인할 수 있다. (localhost:4000)<br>
 하지만 오류 발생! :boom:
 ```
@@ -35,7 +35,7 @@ C:/Programs/Ruby24-x64/lib/ruby/gems/2.4.0/gems/bundler-1.16.3/lib/bundler/runti
 ```
 ---
 ```
-bundle exec jekyll server
+bundle exec jekyll serve
 ```
 해결책 발견!!<br>
 번들러는 Ruby에서 필요한 정확한 gem과 버전을 추적하고 설치하여 루비 프로젝트를 위한 일관된 환경을 제공합니다.<br>
@@ -66,6 +66,6 @@ jekyll 3.7.3 | Error:  Invalid CP949 character "\xE2" on line 54
 chcp 65001
 ```
 콘솔창 화면이 Active code page: 65001로 넘어가면서 다시 jekyll을 구동시키면 정상적으로 동작함!<br>
-http://jekyllrb-ko.github.io/docs/windows/
+http://jekyllrb-ko.github.io/docs/windows/ <br>
 ---
 해결됨! :two_hearts:
