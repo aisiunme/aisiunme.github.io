@@ -54,7 +54,7 @@ Configuration file: D:/Work/Git/aisiunme.github.io/_config.yml
 jekyll 3.7.3 | Error:  Invalid CP949 character "\xE2" on line 54
 ```
 ---
-### 해결 방안
+## 해결 방안
 윈도우에서의 Jekyll에 관한 이슈<br>
 만약 UTF-8 인코딩을 사용한다면, 문서 안에 BOM 헤더를 사용하지 않아야 합니다.<br>
 그렇지 않으면 Jekyll 에 아주, 아주 안 좋은 일이 벌어집니다.<br>
@@ -67,5 +67,4 @@ chcp 65001
 ```
 콘솔창 화면이 Active code page: 65001로 넘어가면서 다시 jekyll을 구동시키면 정상적으로 동작함!<br>
 http://jekyllrb-ko.github.io/docs/windows/ <br>
----
 해결됨! :two_hearts:
