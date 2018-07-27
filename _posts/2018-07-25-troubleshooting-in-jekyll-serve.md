@@ -66,5 +66,5 @@ jekyll 3.7.3 | Error:  Invalid CP949 character "\xE2" on line 54
 chcp 65001
 ```
 콘솔창 화면이 Active code page: 65001로 넘어가면서 다시 jekyll을 구동시키면 정상적으로 동작함!<br>
-http://jekyllrb-ko.github.io/docs/windows/ <br>
+[http://jekyllrb-ko.github.io/docs/windows/](http://jekyllrb-ko.github.io/docs/windows/)<br>
 해결됨! :two_hearts:
