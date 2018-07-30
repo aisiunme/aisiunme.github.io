@@ -26,25 +26,34 @@ tags:
 위의 알고리즘을 파이썬으로 구현한 예제는 다음과 같습니다.
 ```python
 import heapq
+
+# 탐색할 그래프와 시작 정점을 인수로 전달받습니다.
 def dijkstra(graph, start):
+    # 시작 정점에서 각 정점까지의 거리를 저장할 딕셔너리를 생성하고, 무한대로 초기화합니다.
     distances = {vertex: float('inf') for vertex in graph}
     distances[start] = 0
-
+    
+    # 모든 정점이 저장될 큐를 생성합니다.
     queue = []
     for vertex, distance in distances.items():
+        # 파이썬의 heapq 모듈을 사용하여 큐를 우선순위 큐로 저장합니다.
         heapq.heappush(queue, [vertex, distance])
     
+    # 큐의 저장된 모든 정점에 대해서
     while queue:
+        
+        # 큐에서 정점을 하나씩 꺼내 인접한 정점들의 가중치를 모두 확인하여 업데이트합니다.
         current_vertex, current_distance = heapq.heappop(queue)
-
         for adjacent, weight in graph[current_vertex].items():
             distance = distances[current_vertex] + weight
-
+            # 만약 시작 정점에서 인접 정점으로 바로 가는 것보다 현재 정점을 통해 가는 것이 더 가까울 경우에는
             if distance < distances[adjacent]:
+                # 거리를 업데이트합니다.
                 distances[adjacent] = distance
     
     return distances
 
+# 방향 그래프
 mygraph = {
     'A': {'B': 8, 'C': 1, 'D': 2},
     'B': {},
@@ -61,5 +70,5 @@ print(dijkstra(mygraph, 'A'))
 {'A': 0, 'B': 6, 'C': 1, 'D': 2, 'E': 5, 'F': 6}
 ```
 
-만약 음의 가중치를 가지는 정점이 하나라도 존재하면 다익스트라 알고리즘은 정확한 동작을 하지 못합니다.
-따라서 그때에는 벨먼-포드 알고리즘(Bellman-Ford algorithm)을 사용해야 합니다.
+만약 음의 가중치를 가지는 정점이 하나라도 존재하면, 해당 그래프에 대해 다익스트라 알고리즘은 정확한 동작을 수행하지 못합니다.
+따라서 그 경우에는 실행 속도는 다익스트라 알고리즘보다 느리지만, 음의 가중치까지 처리할 수 있는 벨먼-포드 알고리즘(Bellman-Ford algorithm)을 사용해야 합니다.
