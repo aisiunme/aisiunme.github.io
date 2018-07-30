@@ -2,7 +2,7 @@
 title: "다익스트라 알고리즘 - 최단경로 탐색"
 comments: true
 categories:
-  - 알고리즘
+  - Algorithm
 tags:
   - algorithm
   - 다익스트라(Dijkstra)
