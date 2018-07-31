@@ -4,7 +4,7 @@ comments: true
 categories:
   - Algorithm
 tags:
-  - algorithm
+  - 알고리즘
   - 다익스트라(Dijkstra)
 ---
 

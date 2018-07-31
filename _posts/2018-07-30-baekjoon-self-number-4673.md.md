@@ -4,8 +4,9 @@ comments: true
 categories:
   - Algorithm
 tags:
-  - algorithm
+  - 알고리즘
   - 에라토스테네스의 체
+  - 백준 온라인 저지
 ---
 
 ## Problem #4673 - 셀프 넘버
@@ -70,14 +71,14 @@ n을 d(n)의 생성자라고 한다. 위의 수열에서 33은 39의 생성자�
 ### My Solution in Python :ok_hand:
 ```python
 queue = []
-[queue.append(i) for i in range(1, 10001)]
+[queue.append(i) for i in range(1, 10001)] # 큐에 1부터 10000까지의 정수를 저장함.
 
 while queue:
-    n = queue.pop(0)
+    n = queue.pop(0) # 큐의 프론트(front)에서 정수를 하나 꺼냄.
     print(n)
-    while n <= 10000:
-        n = n + sum([int(s) for s in str(n)])
-        if n in queue:
+    while n <= 10000: # 해당 정수부터 10000까지
+        n = n + sum([int(s) for s in str(n)]) # n을 생성자로 하는 모든 정수를 찾음.
+        if n in queue: # 해당 정수가 큐에 있으면 큐에서 제거함.
             queue.remove(n)
         else:
             break
@@ -88,6 +89,10 @@ while queue:
 data = range(9999)
 print(*sorted({*data} - {n + sum(map(int, str(n))) for n in data}))
 ```
-***
+> 파이썬에서 asterisk(\*, 우리말로 별표?!?)는 다양하게 사용됩니다.
+> 1. 가장 대표적으로 곱셈이나 제곱 연산에 사용됩니다.
+> 2. 가변 인수를 사용하기 위해 사용됩니다. ex) \*args, \*\*kwargs
+> 3. 마지막으로 위의 코드에서 사용된 것처럼 리스트나 튜플과 같은 컨테이너 타입의 데이터를 언패킹(unpacking)할 때 사용됩니다. 
 
+***
 백준 온라인 저지 https://www.acmicpc.net/problem/4673
