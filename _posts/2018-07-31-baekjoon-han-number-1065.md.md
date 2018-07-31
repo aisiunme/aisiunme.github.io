@@ -34,5 +34,6 @@ tags:
 print(sum(i//100 - i//10%10 == i//10%10 - i%10 or i<100 for i in range(1, int(input())+1)))
 ```
 > i//100은 백의 자리수, i//10%10은 십의 자리수, i%10은 일의 자리수를 각각 반환합니다.
+
 ***
 백준 온라인 저지 https://www.acmicpc.net/problem/1065
