@@ -8,7 +8,7 @@ tags:
   - github page
 ---
 
-## jekyll serve 오류 발생!!
+## jekyll serve 오류 해결 방법 소개!!
 
 ```
 jekyll serve
