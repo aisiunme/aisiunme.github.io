@@ -26,4 +26,4 @@ excerpt: "일본풍 막장 짬뽕 서부극 애니.. 그러나 넘나 잼있다!
 
 액션, 서바이벌, 밀리터리, 먹방, 서부극까지 모든 장르를 한 번에 보고싶다면 골든 카무이 추천:thumbsup:추천:thumbsup:
 
-별점 : 4.5 / 5 (:star2::star2::star2::star2::star1:)
+별점 : 4.5 / 5 (:star2::star2::star2::star2::star:)
