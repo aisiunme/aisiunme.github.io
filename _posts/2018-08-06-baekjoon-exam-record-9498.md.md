@@ -4,7 +4,7 @@ comments: true
 categories:
   - Algorithm
 tags:
-  - 알고리즘
+  - 알고리즘 문제 풀이
   - 구현
 ---
 
