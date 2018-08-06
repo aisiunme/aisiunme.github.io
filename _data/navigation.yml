@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "About"
+  - title: "프로필"
     url: /about/
-  - title: "Categories"
+  - title: "카테고리별"
     url: /categories/
-  - title: "Tags"
+  - title: "태그별"
     url: /tags/
-  - title: "Creation"
+  - title: "애니와 라노벨"
     url: /creation/
-  - title: "Translation"
+  - title: "일본어 번역"
     url: /translation/

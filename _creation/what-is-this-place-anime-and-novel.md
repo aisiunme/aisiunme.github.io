@@ -1,5 +1,5 @@
 ---
-title: "Anime & Novel"
+title: "애니와 라노벨 공간"
 excerpt: "여기는 저의 감상 및 창작을 위한 공간입니다."
 ---
 
