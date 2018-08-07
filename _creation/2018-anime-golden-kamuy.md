@@ -1,7 +1,7 @@
 ---
 title: "2018년 2분기 애니 추천 - 골든 카무이(Golden Kamuy, ゴールデンカムイ)"
 header:
-  image: /assets/images/goldenkamuy_12.jpg
+  image: /assets/images/goldenkamuy_01.jpeg
 excerpt: "일본풍 막장 짬뽕 서부극 애니.. 그러나 넘나 잼있다!?!"
 ---
 
@@ -11,6 +11,9 @@ excerpt: "일본풍 막장 짬뽕 서부극 애니.. 그러나 넘나 잼있다!
 ## 일본풍 막장 짬뽕 서부극 애니.. 그러나 넘나 잼있다!?!
 
 미국의 서부극 영화를 보다보면 빠짐없이 등장하는 네타인 금괴!  
+
+![사금](/assets/images/goldenkamuy_12.jpg)
+
 야생에서 식인 곰과 사투를 벌이고 사슴, 너구리 등을 사냥하는 헌팅!
 
 ![곰](/assets/images/goldenkamuy_09.jpg)
@@ -42,7 +45,7 @@ excerpt: "일본풍 막장 짬뽕 서부극 애니.. 그러나 넘나 잼있다!
 
 ![아시리파](/assets/images/goldenkamuy_11.jpg)
 
-액션, 서바이벌, 밀리터리, 먹방, 서부극까지 모든 장르를 한 번에 보고싶다면 골든 카무이 추천:thumbsup:추천:thumbsup:
+액션, 서바이벌, 밀리터리, 먹방, 서부극까지 모든 장르를 한 번에 보고싶다면 골든 카무이 추천:thumbsup: 추천:thumbsup:
 
 이 애니를 보고나면 맛있는 음식을 볼때마다 힌나~ 힌나~(아이누 말로 '맛있다~')를 외치게 되고,  
 된장을 바라보며 오소마(아이누 말로 '똥;')로 착각하게 되는 진귀한 경험을 하게 될지도..
