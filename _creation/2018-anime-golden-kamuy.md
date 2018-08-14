@@ -1,7 +1,7 @@
 ---
 title: "2018년 2분기 애니 추천 - 골든 카무이(Golden Kamuy, ゴールデンカムイ)"
 header:
-  image: /assets/images/goldenkamuy_01.jpeg
+  image: /assets/images/creation/goldenkamuy/goldenkamuy_01.jpeg
 excerpt: "일본풍 막장 짬뽕 서부극 애니.. 그러나 넘나 잼있다!?!"
 ---
 
@@ -12,15 +12,15 @@ excerpt: "일본풍 막장 짬뽕 서부극 애니.. 그러나 넘나 잼있다!
 
 미국의 서부극 영화를 보다보면 빠짐없이 등장하는 네타인 금괴!  
 
-![사금](/assets/images/goldenkamuy_12.jpg)
+![사금](/assets/images/creation/goldenkamuy/goldenkamuy_12.jpg)
 
 야생에서 식인 곰과 사투를 벌이고 사슴, 너구리 등을 사냥하는 헌팅!
 
-![곰](/assets/images/goldenkamuy_09.jpg)
+![곰](/assets/images/creation/goldenkamuy/goldenkamuy_09.jpg)
 
 일본에서도 소수 민족인 아이누 족 방식으로 요리한 요리와 엄청난 먹방!
 
-![먹방](/assets/images/goldenkamuy_02.jpg)
+![먹방](/assets/images/creation/goldenkamuy/goldenkamuy_02.jpg)
 
 거기에 뜬금없이 등장하는 신센구미의 히지카타까지!?!
 
@@ -30,20 +30,20 @@ excerpt: "일본풍 막장 짬뽕 서부극 애니.. 그러나 넘나 잼있다!
 진중한 분위기의 서부극이 아닌  
 보는 내내 루팡을 생각나게 하는 가벼운 느낌의 웃음을 주었던 탈옥왕 스기모토
 
-![스기모토](/assets/images/goldenkamuy_06.jpg)
+![스기모토](/assets/images/creation/goldenkamuy/goldenkamuy_06.jpg)
 
 주인공인 후지모토와 언제나 옥신각신하면서도 만담 형식의 웃음과 다양한 얼굴 표정까지 선사해 주는 아이누 족 히로인 아시리파
 
-![아시리파](/assets/images/goldenkamuy_05.jpg)
+![아시리파](/assets/images/creation/goldenkamuy/goldenkamuy_05.jpg)
 
 그 외에 수많은 군상들의 이야기들까지..
 
 서부극을 모토로 한 청년만화이기에 사람을 죽이거나 가죽을 벗기는 등 잔인한 장면들이 다수 등장하지만,  
 아시리파의 얼굴 표정 하나로 모든게 용서됩니다~~~
 
-![아시리파](/assets/images/goldenkamuy_04.jpg)
+![아시리파](/assets/images/creation/goldenkamuy/goldenkamuy_04.jpg)
 
-![아시리파](/assets/images/goldenkamuy_11.jpg)
+![아시리파](/assets/images/creation/goldenkamuy/goldenkamuy_11.jpg)
 
 액션, 서바이벌, 밀리터리, 먹방, 서부극까지 모든 장르를 한 번에 보고싶다면 골든 카무이 추천:thumbsup: 추천:thumbsup:
 

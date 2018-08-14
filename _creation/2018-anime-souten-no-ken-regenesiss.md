@@ -1,7 +1,7 @@
 ---
 title: "2018년 2분기 애니 - 창천의 권 REGENESIS(蒼天の拳 REGENESIS)"
 header:
-  image: /assets/images/soutennoken_01.jpeg
+  image: /assets/images/creation/soutennoken/soutennoken_01.jpeg
 excerpt: "아다다다다다다다.. 과거의 향수는 그대로 두었어야.."
 ---
 
