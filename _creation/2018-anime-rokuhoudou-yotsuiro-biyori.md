@@ -39,4 +39,4 @@ excerpt: "잔잔한 네 남자의 카페 일상 애니"
 
 잔잔한 일상 애니에 먹음직스러운 먹방까지 함께 보고싶다면 녹풍당의 사계절 추천:thumbsup: 추천:thumbsup:
 
-별점 : 3.5 / 5 (:star2::star2::star2::star:)
+추천도 : 3.5 / 5 (:star2::star2::star2::star:)
