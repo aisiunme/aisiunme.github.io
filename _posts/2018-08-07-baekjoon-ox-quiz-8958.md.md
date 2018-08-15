@@ -7,7 +7,7 @@ tags:
   - 알고리즘 문제 풀이
 ---
 
-## Baekjoon Problem #8958 - OX퀴즈
+## Baekjoon Problem #8958 - 문자열 처리 문제
 
 "OOXXOXXOOO"와 같은 OX퀴즈의 결과가 있다. O는 문제를 맞은 것이고, X는 문제를 틀린 것이다.  
 문제를 맞은 경우 그 문제의 점수는 그 문제까지 연속된 O의 개수가 된다.  
