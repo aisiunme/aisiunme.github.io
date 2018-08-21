@@ -7,7 +7,7 @@ tags:
   - 알고리즘 문제 풀이
 ---
 
-## Baekjoon Problem #2292 - 규칙 찾기
+## Baekjoon Problem #2292 - 벌집 모양에서 규칙을 찾는 문제
 
 ![벌집](/assets/images/posts/honeycomb.png)
 

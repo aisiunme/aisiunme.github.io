@@ -7,7 +7,7 @@ tags:
   - 알고리즘 문제 풀이
 ---
 
-## Baekjoon Problem #2775 - 부녀회장이 될테야
+## Baekjoon Problem #2775 - 아파트에서 규칙에 따라 각 호실의 거주자를 구하는 문제
 
 평소 반상회에 참석하는 것을 좋아하는 주희는 이번 기회에 부녀회장이 되고 싶어 각 층의 사람들을 불러 모아 반상회를 주최하려고 한다.
 
@@ -43,10 +43,12 @@ tags:
 ```python
 for _ in range(int(input())):
     k, n = int(input()), int(input())
-    r =[[i for i in range(1, n+1)]]
-    for i in range(1, k+1):
-        for j in range(1, n+1):
-            if j==1: r.append([1])
+    
+    r =[[i for i in range(1, n+1)]]  # [[0, 1, 2, ..., n]] : 0층의 입주자 수
+    for i in range(1, k+1):  # 1층부터 k층까지
+        for j in range(1, n+1):  # 1호부터 n호까지
+            if j==1: r.append([1])  # 1호에는 무조건 1명만 입주함.
+            # k층 n호에는 k-1층 1호부터 n호까지 입주자를 합한 수가 입주함.
             else: r[i].append(sum(r[i-1][:j]))
     print(r[k][n-1])
 ```
