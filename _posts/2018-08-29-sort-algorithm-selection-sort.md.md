@@ -17,11 +17,11 @@ tags:
 
 이렇게 최솟값을 찾아 맨 앞에 위치한 값과 그 위치를 바꾸는 작업을 반복적으로 수행함으로써 데이터를 정렬합니다.
 
-![선택정렬](/assets/images/posts/sort/selection_sort_01.PNG)
-![선택정렬](/assets/images/posts/sort/selection_sort_02.PNG)
-![선택정렬](/assets/images/posts/sort/selection_sort_03.PNG)
-![선택정렬](/assets/images/posts/sort/selection_sort_04.PNG)
-![선택정렬](/assets/images/posts/sort/selection_sort_05.PNG)
+<img src="/assets/images/posts/sort/selection_sort_01.PNG" style="width: 75%; min-width: 321px;" class="align-center">
+<img src="/assets/images/posts/sort/selection_sort_02.PNG" style="width: 75%; min-width: 321px;" class="align-center">
+<img src="/assets/images/posts/sort/selection_sort_03.PNG" style="width: 75%; min-width: 321px;" class="align-center">
+<img src="/assets/images/posts/sort/selection_sort_04.PNG" style="width: 75%; min-width: 321px;" class="align-center">
+<img src="/assets/images/posts/sort/selection_sort_05.PNG" style="width: 75%; min-width: 321px;" class="align-center">
 
 선택 정렬에서 최솟값을 찾는 작업은 맨 처음에는 n개의 데이터를 살펴봐야 합니다. 그 다음 번에는 방금 자리를 바꾼 1개의 데이터를 제외한 n-1개의 데이터를 살펴봐야 최솟값을 찾을 수 있습니다.  
 
