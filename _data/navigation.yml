@@ -8,5 +8,7 @@ main:
     url: /tags/
   - title: "애니와 라노벨"
     url: /creation/
+  - title: "잡담"
+    url: /chatter/
   - title: "일본어 번역"
     url: /translation/

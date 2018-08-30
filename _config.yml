@@ -266,10 +266,13 @@ collections:
   translation:
     output: true
     permalink: /:collection/:path/
+  chatter:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
-  # _posts
+# _posts
   - scope:
       path: ""
       type: posts
@@ -296,6 +299,17 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      related: false
+# _chatter
+  - scope:
+      path: ""
+      type: chatter
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      comments: false
+      related: false
 # _translation
   - scope:
       path: ""
@@ -305,3 +319,4 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      related: false
