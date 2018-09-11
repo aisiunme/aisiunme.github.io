@@ -1,5 +1,5 @@
 ---
-title: "나의 새로운 런닝 파트너 아식스 젤카야노 25"
+title: "나의 새로운 런닝 파트너 - 아식스 젤카야노 25"
 excerpt: "Asics Gel-Kayano 25 Blue 265mm"
 ---
 
