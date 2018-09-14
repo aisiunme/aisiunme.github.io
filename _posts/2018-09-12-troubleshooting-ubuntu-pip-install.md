@@ -16,13 +16,13 @@ tags:
 sudo apt-get install python3-pip
 ```
 
-하지만 이번에 pip 패키지를 설치하려고 하니 다음과 같은 에러가 발생!! :anger:  
+하지만 이번에는 pip 패키지를 설치하려니 다음과 같은 에러가 발생!! :anger:  
 
 ```
 E: Unable to locate package python-pip
 ```
 
-구글에서 검색해 보니 우분투 12.04 버전 또는 그 이상의 버전에서는 다음과 같이 입력해야 pip을 설치할 수 있다고 함!!
+구글에서 검색해 보니 우분투 12.04 또는 그 이상의 버전에서는 다음과 같이 실행해야 pip을 설치할 수 있다고 함!
 
 ```
 sudo apt-get install python3-setuptools
