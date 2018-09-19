@@ -1,5 +1,5 @@
 ---
-title: "백준 온라인 저지 -단어 정렬(1181)"
+title: "백준 온라인 저지 - 단어 정렬(1181)"
 comments: true
 categories:
   - Algorithm
