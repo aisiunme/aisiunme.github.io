@@ -4,8 +4,8 @@ comments: true
 categories:
   - Jekyll
 tags:
-  - jekyll
-  - github page
+  - 지킬(jekyll)
+  - 깃(git)
 ---
 
 ## jekyll serve 오류 해결 방법 소개!!

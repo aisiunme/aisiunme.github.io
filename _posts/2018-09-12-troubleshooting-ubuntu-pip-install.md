@@ -4,8 +4,8 @@ comments: true
 categories:
   - Ubuntu
 tags:
-  - ubuntu
-  - python
+  - 우분투
+  - 파이썬
 ---
 
 ## Ubuntu에서 python pip 설치 방법
