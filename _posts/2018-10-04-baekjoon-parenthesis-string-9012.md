@@ -5,6 +5,7 @@ categories:
   - Algorithm
 tags:
   - 알고리즘 문제 풀이
+  - 스택
 ---
 
 ## Baekjoon Problem #9012 - 스택을 사용하여 괄호의 올바른 사용 여부를 찾는 문제
